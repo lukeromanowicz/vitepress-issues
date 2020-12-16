@@ -2,9 +2,15 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        text: 'Hello world',
+        text: 'Bar',
         children: [
-          { link: '/test', text: 'First child link' }
+          { link: '/bar/foo', text: 'Foo' },
+        ]
+      },
+      {
+	text: 'Baz',
+	children: [
+	  { link: '/baz/foo', text: 'Foo' },
         ]
       }
     ]
